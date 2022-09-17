@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apple Leave Information</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Apply Leave</h1>
+
+		<body bgcolor="lightgrey">
+
+			<form action="/addemp" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getemp" style="background: grey; height: 45px; width: 200px; color:white; font:oblique;">GET EMPLOYEE INFORMATION</button><br><br>
+
+		  		Employee ID:<br> <input style="height:25px;font-size:14pt; color:grey;" type="text" name="emp_id" autofocus size="40"><br><br>
+
+		  		Employee Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="emp_name" ><br><br>
+
+		  		Department:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="emp_department"><br><br>
+
+		  		Position:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="emp_position"><br><br>
+
+		  		Type of leave:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="type_of_leave"><br><br>
+
+		  		Number of days:<br> <input style="height:25px;font-size:14pt;color:grey;" type="number" name="leave_days"><br><br>
+
+		  		Start date:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="leave_start_date"><br><br>
+
+		  		End date:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="leave_end_date"><br><br>
+
+                leave reason:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="leave_reason"><br><br>
+
+		  		Manager name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="manager_name"><br><br>
+
+		  		Manager email:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="manager_email"><br><br>
+
+		  		<button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+			</form>
+<a href="/about">About Us</a>
+		</body>
+
+	</font>
+</center>
+</html>
